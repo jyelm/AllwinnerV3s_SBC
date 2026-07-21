@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Allwinner_SiPs") (type "KiCad") (uri "C:/Users/jcelm/Downloads/allwinner_SiPs_kicad_lib-main/allwinner_SiPs_kicad_lib-main/footprints/Allwinner_SiPs.pretty") (options "") (descr ""))
+)

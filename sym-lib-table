@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Allwinner_SiPs") (type "Legacy") (uri "C:/Users/jcelm/Downloads/allwinner_SiPs_kicad_lib-main/allwinner_SiPs_kicad_lib-main/symbols/Allwinner_SiPs.lib") (options "") (descr ""))
+)

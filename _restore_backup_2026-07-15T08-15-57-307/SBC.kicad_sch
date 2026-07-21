@@ -1,0 +1,272 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "25eba0e2-bd0e-497d-a8e1-3c9a1e05a1b5")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 68.58 24.13) (xy 88.9 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce3ffd4-fcc6-4d29-9114-9547548cfaf6")
+	)
+	(wire
+		(pts
+			(xy 142.24 25.4) (xy 160.02 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "684e3689-b1df-4f82-9411-11529041ca43")
+	)
+	(wire
+		(pts
+			(xy 142.24 30.48) (xy 160.02 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8b767c-f4f8-4146-817e-723e337ff30a")
+	)
+	(wire
+		(pts
+			(xy 142.24 27.94) (xy 160.02 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc895fa2-a39d-400f-bb37-1a17f588bde4")
+	)
+	(sheet
+		(at 160.02 24.13)
+		(size 25.4 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4dd0a611-ba13-4204-a3b7-58c90680565b")
+		(property "Sheetname" "Sys"
+			(at 160.02 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sys.kicad_sch"
+			(at 160.02 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "X24MIN" input
+			(at 160.02 25.4 180)
+			(uuid "81801345-21b1-4a70-b53a-337e0aa8e5d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X24MOUT" input
+			(at 160.02 27.94 180)
+			(uuid "970b7216-fe71-49c3-88f1-0278c6309182")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET" input
+			(at 160.02 30.48 180)
+			(uuid "f9982222-e434-4426-9e7e-d3241d263fb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SBC"
+				(path "/25eba0e2-bd0e-497d-a8e1-3c9a1e05a1b5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 21.59)
+		(size 45.72 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bb515702-2875-486a-acd3-4dbf5ce785ac")
+		(property "Sheetname" "power"
+			(at 22.86 20.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 22.86 59.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SVREF" input
+			(at 68.58 24.13 0)
+			(uuid "eba63f93-49c9-48d6-8cb0-811bcff27b83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SBC"
+				(path "/25eba0e2-bd0e-497d-a8e1-3c9a1e05a1b5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 21.59)
+		(size 53.34 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c02b834f-4802-4d08-adb9-88966db029a6")
+		(property "Sheetname" "Allwinner V3S"
+			(at 88.9 20.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AllwinnerV3S.kicad_sch"
+			(at 88.9 59.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SVREF" input
+			(at 88.9 24.13 180)
+			(uuid "55f73471-60da-441d-b404-fc8dfa5659fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X24MIN" input
+			(at 142.24 25.4 0)
+			(uuid "7c93a0ec-5fea-461a-baff-864e3d214c06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "X24MOUT" input
+			(at 142.24 27.94 0)
+			(uuid "84640f44-507f-4e04-b088-44a427938982")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RESET" input
+			(at 142.24 30.48 0)
+			(uuid "b9fb28a8-5fc9-4f2b-80c1-8622ba898985")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SBC"
+				(path "/25eba0e2-bd0e-497d-a8e1-3c9a1e05a1b5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
